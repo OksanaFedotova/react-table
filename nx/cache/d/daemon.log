@@ -1,0 +1,72 @@
+[NX Daemon Server] - 2023-10-27T16:21:23.029Z - Started listening on: \\.\pipe\nx\C:\Windows\TEMP\1fd806339dd87eb2a2df\d.sock
+[NX Daemon Server] - 2023-10-27T16:21:23.047Z - [WATCHER]: Subscribed to changes within: P:\2022-2023\Код будущего\Оксана Федотова\react-table (native)
+[NX Daemon Server] - 2023-10-27T16:21:23.049Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-27T16:21:23.050Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-27T16:21:23.052Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-27T16:21:23.058Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-27T16:21:23.477Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-27T16:21:23.477Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-27T16:21:23.478Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-27T16:21:23.612Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-27T16:21:23.614Z - Time taken for 'total for creating and serializing project graph' 553.6043000221252ms
+[NX Daemon Server] - 2023-10-27T16:21:23.614Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-27T16:21:23.615Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-27T16:21:23.615Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 554. Response time: 3.
+[NX Daemon Server] - 2023-10-27T16:21:23.645Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-27T16:21:24.014Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-10-27T16:21:24.015Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-10-27T16:21:24.016Z - Handled HASH_TASKS. Handling time: 40. Response time: 2.
+[NX Daemon Server] - 2023-10-27T16:21:24.518Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-27T16:21:24.748Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-27T16:21:24.804Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-27T16:21:24.861Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-27T16:21:25.249Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-27T16:21:29.002Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-27T16:21:29.003Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-27T16:21:29.004Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-27T16:21:29.009Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-27T16:21:29.011Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-27T16:21:29.013Z - Time taken for 'total for creating and serializing project graph' 1.5814999341964722ms
+[NX Daemon Server] - 2023-10-27T16:21:29.013Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-27T16:21:29.014Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 3.
+[NX Daemon Server] - 2023-10-27T16:21:29.321Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-10-27T16:21:29.322Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-10-27T16:21:29.322Z - Handled HASH_TASKS. Handling time: 5. Response time: 1.
+[NX Daemon Server] - 2023-10-27T16:21:30.385Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-27T16:21:35.984Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-27T16:21:36.144Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-27T16:33:40.029Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-27T16:33:40.030Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-10-27T16:33:40.082Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-27T16:33:55.824Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-27T16:33:55.855Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2023-10-27T16:33:55.994Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-27T16:33:55.994Z - [REQUEST]: package.json
+[NX Daemon Server] - 2023-10-27T16:33:55.995Z - [REQUEST]: 
+
+ >  NX   Failed to parse npm lockfile
+
+   Please open an issue at `https://github.com/nrwl/nx/issues/new?template=1-bug.yml` and provide a reproduction.
+   
+Original error: Source project does not exist: npm:@jridgewell/source-map
+
+
+   Error: Source project does not exist: npm:@jridgewell/source-map
+    at validateCommonDependencyRules (P:\2022-2023\Код будущего\Оксана Федотова\react-table\node_modules\nx\src\project-graph\project-graph-builder.js:318:15)
+    at validateDependency (P:\2022-2023\Код будущего\Оксана Федотова\react-table\node_modules\nx\src\project-graph\project-graph-builder.js:313:5)
+    at P:\2022-2023\Код будущего\Оксана Федотова\react-table\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:156:76
+    at Array.forEach (<anonymous>)
+    at P:\2022-2023\Код будущего\Оксана Федотова\react-table\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:148:45
+    at Array.forEach (<anonymous>)
+    at P:\2022-2023\Код будущего\Оксана Федотова\react-table\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:146:15
+    at Array.forEach (<anonymous>)
+    at getDependencies (P:\2022-2023\Код будущего\Оксана Федотова\react-table\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:136:39)
+    at getNpmLockfileDependencies (P:\2022-2023\Код будущего\Оксана Федотова\react-table\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:33:12)
+
+[NX Daemon Server] - 2023-10-27T16:33:56.070Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+Source project does not exist: npm:@jridgewell/source-map
+[NX Daemon Server] - 2023-10-27T16:33:56.078Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-27T16:33:56.078Z - Time taken for 'hash changed files from watcher' 1.7767000198364258ms
+[NX Daemon Server] - 2023-10-27T16:33:56.079Z - [WATCHER]: Stopping the watcher for P:\2022-2023\Код будущего\Оксана Федотова\react-table (sources)
+[NX Daemon Server] - 2023-10-27T16:33:56.079Z - [WATCHER]: Stopping the watcher for P:\2022-2023\Код будущего\Оксана Федотова\react-table (outputs)
+[NX Daemon Server] - 2023-10-27T16:33:56.080Z - Server stopped because: "Lock file changed"
